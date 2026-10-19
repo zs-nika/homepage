@@ -1,0 +1,58 @@
+
+html {
+  min-height: 100%;
+}
+
+
+body {
+  background: linear-gradient(135deg in oklch, oklch(29.92% 0.0400 189.84) 0.0%, oklch(30.87% 0.0407 193.60) 3.2%, oklch(32.12% 0.0415 198.38) 6.5%, oklch(33.60% 0.0425 204.05) 9.7%, oklch(35.25% 0.0436 210.50) 12.9%, oklch(37.04% 0.0450 217.61) 16.1%, oklch(38.89% 0.0465 225.24) 19.4%, oklch(40.75% 0.0482 233.28) 22.6%, oklch(42.58% 0.0501 241.65) 25.8%, oklch(44.48% 0.0521 251.00) 29.0%, oklch(46.49% 0.0542 261.35) 32.3%, oklch(48.56% 0.0565 272.32) 35.5%, oklch(50.67% 0.0590 283.56) 38.7%, oklch(52.79% 0.0618 294.71) 41.9%, oklch(54.87% 0.0649 305.41) 45.2%, oklch(56.90% 0.0684 315.30) 48.4%, oklch(58.84% 0.0724 324.14) 51.6%, oklch(60.78% 0.0775 332.50) 54.8%, oklch(62.72% 0.0835 340.47) 58.1%, oklch(64.62% 0.0898 348.02) 61.3%, oklch(66.49% 0.0960 355.12) 64.5%, oklch(68.30% 0.1017 1.74) 67.7%, oklch(70.02% 0.1064 7.87) 71.0%, oklch(71.66% 0.1097 13.46) 74.2%, oklch(73.21% 0.1112 18.50) 77.4%, oklch(74.76% 0.1112 23.01) 80.6%, oklch(76.26% 0.1101 26.99) 83.9%, oklch(77.68% 0.1082 30.49) 87.1%, oklch(78.99% 0.1059 33.52) 90.3%, oklch(80.16% 0.1036 36.12) 93.5%, oklch(81.13% 0.1017 38.32) 96.8%, oklch(81.89% 0.1006 40.14) 100.0%);
+ background-repeat: no-repeat;
+   padding: 20px;
+   text-align: center;
+
+}
+
+
+h1 {
+    color: #ffffff;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 60pt;
+}
+
+
+p {
+  text-align: center;
+  max-width: 300px;
+  margin: 15px auto;
+  align-items: center;
+  color: white;
+    font-family: "Geist", sans-serif;
+}
+
+.button {
+background-color: rgb(255 255 255);
+color: black;
+  text-align: center;
+  width: 120px;
+  margin: 15px auto;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background 0.2s;
+    border: none;
+    font-family: "Geist", sans-serif;
+  font-size: inherit;
+}
+
+.button:hover {
+  background: rgb(255 255 255 / 50%);
+  color: white;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #e5e7eb;
+}
